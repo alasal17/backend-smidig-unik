@@ -1,5 +1,6 @@
 package com.westerdals.smidig.entity;
 
+import com.westerdals.smidig.service.UserService;
 import org.junit.jupiter.api.Test;
 
 public class UserTest {
@@ -16,8 +17,8 @@ public class UserTest {
         user.setPhone(90909090);
         user.setEmail("håkon@gmail.com");
         user.setLocation("Oslo");
-
-
-
     }
+
+
+
 }

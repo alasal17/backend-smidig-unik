@@ -22,16 +22,17 @@ public class UserService {
 
     @Autowired
     private EntityManager em;
+    private User user;
 
 
 
 
 
-    public void createUser(String firstName, String lastName, boolean enable, String userName, String password, int age, String email, int phone, String location) {
-        if(isRegistered(userName)){
+    public void createUser(Long userId, String firstName, String lastName, String userName, String password, int age, String email, int phone, String location) {
+        if(isRegistered(userId)){
             return;
         }
-        User user = new User();
+        user = new User();
         user.setFirstName(firstName);
         user.setLastName(lastName);
         user.setUserName(userName);
@@ -46,21 +47,21 @@ public class UserService {
     }
 
 
-    public boolean isRegistered(@NotNull String userId){
-        User user = em.find(User.class, userId);
+    public boolean isRegistered(@NotNull Long userId){
+        user = em.find(User.class, userId);
         return user != null;
     }
 
     public long getNumberOfUsers(){
-        TypedQuery<Long> query = em.createQuery("select count(u) from User u", Long.class);
+        TypedQuery<Long> query = em.createQuery("select count(*) from User", Long.class);
         long n = query.getSingleResult();
         return n;
     }
 
-    public void addNewUser(String firstName, String lastName, int counter, String username, String password, boolean enabled )
+    public void addNewUser(String firstName, String lastName, String userName, String password, int phone, String email, String location )
     {
-        TypedQuery<User> query = em.createQuery("INSERT INTO USERS VALUES" +(firstName +", "+ lastName +", "+counter +", "+ username +", "+ password +", "+ enabled ), User.class );
-        query.setMaxResults(counter);
+        TypedQuery<User> query = em.createQuery("INSERT INTO USERS VALUES" +(firstName +", "+ lastName +", "+userName +", " + ", "+ password +", "+ phone + "," + email + "," + location ), User.class );
+        query.setMaxResults(5);
 
 
     }
