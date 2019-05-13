@@ -17,19 +17,28 @@
 
 
     <title>
-        <ui:insert name="title">Unik</ui:insert>
+        <ui:insert name="title">Default title</ui:insert>
     </title>
 
-
+    <ui:insert name="headTags"/>
 </head>
 
 
 <body>
 
-<h1>This is a test page</h1>
+    <ui:insert name="content" />
 
-<br/>
+    <hr/>
 
-<p>For entring H2 database visit this url: http://localhost:8080/h2</p>
+    <h1>
+        This is a test page
+         </h1>
+
+    <p>
+        for H2 database, visit: <a
+            href="http://localhost:8080/h2" class="code">
+        http://localhost:8080/h2</a>
+    </p>
+
 </body>
 </html>
