@@ -7,7 +7,9 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @Entity
 public class User {
@@ -17,14 +19,17 @@ public class User {
     private Long id;
 
     @NotNull
+    @Size(min = 16 , max = 128)
     private String firstName;
 
     @NotNull
+    @Size(min = 16 , max = 128)
     private String lastName;
 
 
     @NotNull
     @Column(unique=true)
+    @Size(min = 16 , max = 128)
     private String userName;
 
     @NotNull
@@ -40,7 +45,7 @@ public class User {
     @NotNull
     private String location;
 
-    @NotNull
+    @NotBlank
     private String password;
 
     public Long getId() {
