@@ -5,8 +5,8 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <datasource-mapping>
-          <factory-entry name="DB" />
-          <factory-entry name="JTA" />
+          <factory-entry name="DB" value="1706e685-4dd3-4e33-a2de-49b9141c98af" />
+          <factory-entry name="JTA" value="3a59e92c-ab3c-4fe4-b045-d04da2014bef" />
           <factory-entry name="entityManagerFactory" />
         </datasource-mapping>
         <naming-strategy-map />
