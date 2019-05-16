@@ -48,6 +48,9 @@ public class User {
     @NotBlank
     private String password;
 
+
+
+
     public Long getId() {
         return id;
     }

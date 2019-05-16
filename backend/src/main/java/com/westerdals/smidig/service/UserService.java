@@ -58,10 +58,10 @@ public class UserService {
         return n;
     }
 
-    public void addNewUser(String firstName, String lastName, String userName, String password, int phone, String email, String location )
+    public void addNewUser(String firstName, String lastName,int age, String userName, String password, int phone, String email, String location )
     {
-        TypedQuery<User> query = em.createQuery("INSERT INTO USERS VALUES" +(firstName +", "+ lastName +", "+userName +", " + ", "+ password +", "+ phone + "," + email + "," + location ), User.class );
-        query.setMaxResults(5);
+        TypedQuery<User> query = em.createQuery("INSERT INTO USER VALUES" +(firstName +", "+ lastName + ", " + age + ", " +userName +", " + password +", "+ phone + "," + email + "," + location ), User.class );
+        query.setMaxResults(1);
 
 
     }
