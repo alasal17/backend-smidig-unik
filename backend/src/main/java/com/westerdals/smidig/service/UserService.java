@@ -19,7 +19,7 @@ public class UserService {
     private PasswordEncoder passwordEncoder;
 
 
-    public boolean createUser(String userName, String password) {
+    public boolean createUser(String firstName, String lastName, int age, String email, String location, int phone, String userName, String password) {
         String hashedPassword = passwordEncoder.encode(password);
 
         if (em.find(User.class, userName) != null) {
@@ -27,6 +27,12 @@ public class UserService {
         }
 
         User user = new User();
+        user.setFirstName(firstName);
+        user.setLastName(lastName);
+        user.setAge(age);
+        user.setEmail(email);
+        user.setLocation(location);
+        user.setPhone(phone);
         user.setUserName(userName);
         user.setPassword(hashedPassword);
         em.persist(user);
