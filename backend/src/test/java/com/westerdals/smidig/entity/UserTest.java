@@ -20,5 +20,20 @@ public class UserTest {
     }
 
 
+    @Test
+    public void getUserTest(){
+        User user = new User();
+        user.getId();
+        user.getFirstName();
+        user.getLastName();
+        user.getEmail();
+        user.getAge();
+        user.getLocation();
+        user.getPhone();
+        user.getUserName();
+        user.getPassword();
+    }
+
+
 
 }

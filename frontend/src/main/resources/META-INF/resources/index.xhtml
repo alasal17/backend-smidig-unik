@@ -2,21 +2,32 @@
 <!DOCTYPE html>
 <html
         xmlns:h="http://xmlns.jcp.org/jsf/html"
+
         xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
->
+        xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+        xmlns:sec="http://www.w3.org/2001/XMLSchema-instance"
+        sec:schemaLocation="http://www.springframework.org/security/tags ">
 
 <ui:composition template="/layout.xhtml">
 
     <ui:define name="title">
-        Unik
+
     </ui:define>
 
 
     <ui:define name="content">
 
 
+        <sec:authenticated>
+
+           Welcome
+
+        </sec:authenticated>
 
 
+        <sec:anonymous>
+
+        </sec:anonymous>
 
     </ui:define>
 

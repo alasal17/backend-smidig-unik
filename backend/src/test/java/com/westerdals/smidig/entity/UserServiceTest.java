@@ -9,8 +9,9 @@ public class UserServiceTest {
     @Test
     public void createUser(){
         UserService userService = new UserService();
+        userService.createUser("gest","1234");
 
-        userService.createUser("","","","",25,"",000,"");
+
     }
 }
 
