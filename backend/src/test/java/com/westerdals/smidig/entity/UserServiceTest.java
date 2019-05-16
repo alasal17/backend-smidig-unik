@@ -7,8 +7,10 @@ public class UserServiceTest {
 
 
     @Test
-    public void addUser(){
+    public void createUser(){
         UserService userService = new UserService();
-        userService.addNewUser("ole","mar",25,"ole","ewr",000000,"ole@gmail.com","Oslo");
+
+        userService.createUser("","","","",25,"",000,"");
     }
 }
+

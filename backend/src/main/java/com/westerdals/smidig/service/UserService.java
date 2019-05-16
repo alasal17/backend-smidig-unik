@@ -21,16 +21,22 @@ import java.util.List;
 public class UserService {
 
     @Autowired
-    private EntityManager em;
+
     private User user;
 
 
+    @Autowired
+    private EntityManager em;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
 
+    public boolean createUser(String firstName, String lastName, String userName, String password, int age, String email, int phone, String location) {
+        String hashedPassword = passwordEncoder.encode(password);
 
-    public void createUser(Long userId, String firstName, String lastName, String userName, String password, int age, String email, int phone, String location) {
-        if(isRegistered(userId)){
-            return;
+        if (em.find(User.class, userName) != null) {
+            return false;
         }
         user = new User();
         user.setFirstName(firstName);
@@ -44,6 +50,7 @@ public class UserService {
 
         em.persist(user);
 
+        return true;
     }
 
 

@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a79122ca-a4a0-4944-b69d-e08402644f1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/westerdals/smidig/entity/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/layout.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/layout.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/resources/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/layout.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/resources/layout.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/westerdals/smidig/entity/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/westerdals/smidig/entity/UserServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,64 +36,14 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5281077">
+    <splitter split-orientation="horizontal" split-proportion="0.9">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3451">
-                  <caret line="203" selection-start-line="203" selection-end-line="203" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/layout.xhtml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="37" selection-start-line="37" selection-end-line="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/entity/User.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="52" selection-start-line="52" selection-end-line="52" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1185#1186#0" expanded="true" />
-                    <element signature="e#1216#1217#0" expanded="true" />
-                    <element signature="e#1877#1878#0" expanded="true" />
-                    <element signature="e#1908#1909#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/src/main/java/com/westerdals/smidig/entity/Application.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/service/UserService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="118">
-                  <caret line="60" column="65" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
+                <state relative-caret-position="34">
+                  <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -110,8 +54,36 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/backend/src/test/java/com/westerdals/smidig/entity/UserServiceTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+                <state relative-caret-position="272">
+                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/backend/src/test/java/com/westerdals/smidig/entity/UserTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" selection-start-line="8" selection-end-line="8" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/entity/User.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="33" selection-start-line="33" selection-end-line="33" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -163,9 +135,9 @@
         <option value="$PROJECT_DIR$/../testing_security_development_enterprise_systems/intro/exercise-solutions/quiz-game/part-08/src/main/resources/META-INF/resources/layout.xhtml" />
         <option value="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/assets/style.css" />
         <option value="$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/layout.xhtml" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/entity/User.java" />
         <option value="$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/service/UserService.java" />
         <option value="$PROJECT_DIR$/backend/src/test/java/com/westerdals/smidig/entity/UserServiceTest.java" />
-        <option value="$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/entity/User.java" />
       </list>
     </option>
   </component>
@@ -212,14 +184,6 @@
               <item name="backend/src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="backend-smidig-unik" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="unik" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="backend/src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.westerdals.smidig.entity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="backend-smidig-unik" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -329,9 +293,9 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557828747717" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557970125695" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/frontend/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testing_security_development_enterprise_systems" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -339,6 +303,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources" />
+      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources\assets" />
+      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF" />
+      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\resources" />
+      <recent name="C:\Users\salam\git\backend-smidig-unik\backend" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.westerdals.smidig.entity" />
     </key>
@@ -346,13 +317,6 @@
       <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources" />
       <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources" />
       <recent name="C:\Users\salam\git\backend-smidig-unik\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources" />
-      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources\assets" />
-      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF" />
-      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\resources" />
-      <recent name="C:\Users\salam\git\backend-smidig-unik\backend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -451,8 +415,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="JUnit.UserServiceTest.addUser" />
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.UserServiceTest.addUser" />
         <item itemvalue="JUnit.UserTest.listUsers" />
         <item itemvalue="JUnit.UserTest" />
       </list>
@@ -472,16 +436,11 @@
       <workItem from="1557742047269" duration="10243000" />
       <workItem from="1557820538519" duration="664000" />
       <workItem from="1557827804338" duration="987000" />
+      <workItem from="1557969059128" duration="1655000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_listUsers - 2019.05.13 at 13h 23m 25s.xml">
-      <configuration name="UserTest.listUsers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserTest_listUsers - 2019.05.13 at 13h 24m 51s.xml">
-      <configuration name="UserTest.listUsers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserTest - 2019.05.13 at 13h 29m 11s.xml">
       <configuration name="UserTest" configurationId="JUnit" />
     </history-entry>
@@ -506,14 +465,20 @@
     <history-entry file="UserServiceTest - 2019.05.14 at 12h 12m 31s.xml">
       <configuration name="UserServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserServiceTest - 2019.05.16 at 03h 12m 25s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceTest - 2019.05.16 at 03h 28m 50s.xml">
+      <configuration name="UserServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11974000" />
+    <option name="totallyTimeSpent" value="13629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15348525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.43632707" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -592,16 +557,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/entity/App.java" />
-    <entry file="file://$PROJECT_DIR$/backend/src/test/java/com/westerdals/smidig/entity/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../testing_security_development_enterprise_systems/intro/exercise-solutions/quiz-game/part-08/src/main/java/org/tsdes/intro/exercises/quizgame/controller/MatchController.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -656,23 +611,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/ui/match.xhtml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3451">
-          <caret line="203" selection-start-line="203" selection-end-line="203" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/com/westerdals/smidig/entity/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../testing_security_development_enterprise_systems/intro/exercise-solutions/quiz-game/part-08/src/main/resources/META-INF/resources/layout.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -696,25 +634,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/main/resources/META-INF/resources/layout.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="388">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="60" column="65" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="626">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/test/java/com/westerdals/smidig/entity/UserServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/com/westerdals/smidig/entity/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -723,14 +658,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="153">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1877#1878#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/com/westerdals/smidig/entity/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/test/java/com/westerdals/smidig/entity/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
