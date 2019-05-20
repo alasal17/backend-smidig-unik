@@ -4,9 +4,10 @@ import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.Set;
 
 @Entity
-@Table(name="USERS")
+@Table(name="Users")
 public class User {
 
     @Id
@@ -15,33 +16,45 @@ public class User {
 
     @NotNull
     @Size(min = 16 , max = 128)
+    @Column(name = "firstname")
     private String firstName;
 
     @NotNull
     @Size(min = 16 , max = 128)
+    @Column(name = "lastname")
     private String lastName;
 
 
     @NotNull
-    @Column(unique=true)
     @Size(min = 16 , max = 128)
+    @Column(name = "username")
     private String userName;
 
     @NotNull
-    @Column(unique=true)
+    @Column(name = "email")
     private String email;
 
     @NotNull
-    @Column(unique=true)
+    @Column(name = "phone")
     private int phone;
 
+    @Column(name = "age")
     private int age;
 
     @NotNull
+    @Column(name = "location")
     private String location;
 
     @NotBlank
+    @Column(name = "password")
     private String password;
+
+    @Column(name = "active")
+    private int active;
+
+    @ManyToMany(cascade=CascadeType.ALL)
+    @JoinTable(name="user_role", joinColumns=@JoinColumn(name="user_id"), inverseJoinColumns=@JoinColumn(name="role_id"))
+    private Set<Role> roles;
 
 
 
@@ -115,6 +128,22 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public int getActive() {
+        return active;
+    }
+
+    public void setActive(int active) {
+        this.active = active;
+    }
+
+    public Set<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(Set<Role> roles) {
+        this.roles = roles;
     }
 }
 
