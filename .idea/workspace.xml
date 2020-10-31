@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a79122ca-a4a0-4944-b69d-e08402644f1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unik.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -235,6 +236,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,99 +245,10 @@
               <item name="backend-smidig-unik" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend-smidig-unik" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="backend-smidig-unik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-smidig-unik" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-smidig-unik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-smidig-unik" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-smidig-unik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-smidig-unik" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-smidig-unik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-smidig-unik" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-smidig-unik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-smidig-unik" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-smidig-unik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-smidig-unik" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-smidig-unik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-smidig-unik" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-smidig-unik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-smidig-unik" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-smidig-unik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-smidig-unik" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-smidig-unik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-smidig-unik" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-smidig-unik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-smidig-unik" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend-smidig-unik" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-smidig-unik" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,11 +256,12 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558540783674" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/backend/src/main/java/com/westerdals/smidig" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../smidig-stack-test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -355,15 +270,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources\error" />
+      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources\home" />
+      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources\user" />
+      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources" />
+      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources\assets" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.westerdals.smidig.entity" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources" />
-      <recent name="C:\Users\salam\git\backend-smidig-unik\backend\src\main\java" />
-      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources" />
-      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF/resources" />
-      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.westerdals.smidig.service" />
@@ -371,12 +286,12 @@
       <recent name="controller" />
       <recent name="com.westerdals.smidig" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources\error" />
-      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources\home" />
-      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources\user" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources" />
+      <recent name="C:\Users\salam\git\backend-smidig-unik\backend\src\main\java" />
       <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources" />
-      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF\resources\assets" />
+      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF/resources" />
+      <recent name="C:\Users\salam\git\backend-smidig-unik\frontend\src\main\resources\META-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -509,6 +424,7 @@
       <workItem from="1558348447177" duration="181000" />
       <workItem from="1558538490912" duration="2568000" />
       <workItem from="1558601591460" duration="418000" />
+      <workItem from="1560238443583" duration="445000" />
     </task>
     <servers />
   </component>
@@ -545,13 +461,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50420000" />
+    <option name="totallyTimeSpent" value="50865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7793427" visible="true" weight="0.22214764" />
-      <window_info id="Structure" order="1" sideWeight="0.22065727" side_tool="true" visible="true" weight="0.22214764" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7769953" visible="true" weight="0.22550336" />
+      <window_info id="Structure" order="1" sideWeight="0.2230047" side_tool="true" visible="true" weight="0.22550336" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -576,7 +492,7 @@
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.12889518" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.39660057" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.39660057" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
